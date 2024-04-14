@@ -1,0 +1,337 @@
+{
+  "ConfigDataVersion": "V3",
+  "InstallerDefinitions": [
+    {
+      "Name": "DinkHD",
+      "DestinationName": "DinkHD",
+      "ApplicationFileName": null,
+      "GameFileName": "dink.exe",
+      "EditorFileName": null,
+      "Category": "Dink HD",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.rtsoft.com/dink/DinkSmallwoodHDInstaller.exe",
+            "Name": "dink_smallwood_hd.exe",
+            "Sha256": "",
+            "CheckSha256": false,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "DinkHD V1.99",
+      "DestinationName": "DinkHD_V1.99",
+      "ApplicationFileName": null,
+      "GameFileName": "dink.exe",
+      "EditorFileName": null,
+      "Category": "Dink HD",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/dink_smallwood_hd-1_99.exe",
+            "Name": "dink_smallwood_hd-1_99.exe",
+            "Sha256": "e4d64dcf6a074abb14c6e2c4312762a74719a3497e76975380194d35311c73a6",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "DinkHD V1.98",
+      "DestinationName": "DinkHD_V1.98",
+      "ApplicationFileName": null,
+      "GameFileName": "dink.exe",
+      "EditorFileName": null,
+      "Category": "Dink HD",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/dink_smallwood_hd-1_98.exe",
+            "Name": "dink_smallwood_hd-1_98.exe",
+            "Sha256": "1e6a76557955cb90f92a4102caf1ee6a8e7cc8f1c0815056e3420ac0bda290d4",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "DinkHD V1.97",
+      "DestinationName": "DinkHD_V1.97",
+      "ApplicationFileName": null,
+      "GameFileName": "dink.exe",
+      "EditorFileName": null,
+      "Category": "Dink HD",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/dink_smallwood_hd-1_97.exe",
+            "Name": "dink_smallwood_hd-1_97.exe",
+            "Sha256": "ed3a2243df9dd9e89239206ada77decf2afa32dfb13515670e93099465d7a575",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "DinkHD V1.93",
+      "DestinationName": "DinkHD_V1.93",
+      "ApplicationFileName": null,
+      "GameFileName": "dink.exe",
+      "EditorFileName": null,
+      "Category": "Dink HD",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/dink_smallwood_hd-v1_9_3.exe",
+            "Name": "dink_smallwood_hd-v1_9_3.exe",
+            "Sha256": "fd451463caaf05c6f321850d6a1c3c2f3dfe2579152934fcce4b441c4ead1efb",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "Dink V1.08",
+      "DestinationName": "Dink_V1.08",
+      "ApplicationFileName": null,
+      "GameFileName": "dink.exe",
+      "EditorFileName": null,
+      "Category": "Dink Classic",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/dinksmallwood108.exe",
+            "Name": "dinksmallwood108.exe",
+            "Sha256": "d6be28b01602813df02439d4d2974bd38820dc9ce0ea71da5110fc825a360d8e",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "FreeDink V1.09.6",
+      "DestinationName": "FreeDink_V1.09.6",
+      "ApplicationFileName": null,
+      "GameFileName": "freedink.exe",
+      "EditorFileName": "freedinkedit.exe",
+      "Category": "Freedink",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/dinksmallwood108.exe",
+            "Name": "dinksmallwood108.exe",
+            "Sha256": "d6be28b01602813df02439d4d2974bd38820dc9ce0ea71da5110fc825a360d8e",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Nsis"
+          },
+          "FileFilterList": [
+            "dink",
+            "island"
+          ],
+          "FileFilterMode": 0,
+          "SourceSubFolder": ""
+        },
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/gnu_freedink-109_6.zip",
+            "Name": "gnu_freedink-109_6.zip",
+            "Sha256": "9f42039929251027412dbb5247c299de7c74dff5854f0dd03abc3c10bc3293c2",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        },
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/freedink_data-1_08_20190120.zip",
+            "Name": "freedink_data-1_08_20190120.zip",
+            "Sha256": "7cb32cae1d88fd15d2c441d6cbfe11e418bab6d66d84e2abe8a1b0c46bbd527a",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [
+            "dink\\l10n",
+            "licenses",
+            "freedink-data-COPYING.txt",
+            "freedink-data-NEWS.txt",
+            "freedink-data-README.txt",
+            "freedink-data-README-REPLACEMENTS.txt"
+          ],
+          "FileFilterMode": 0,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "FreeDink V1.09.6 (GNU Assets)",
+      "DestinationName": "FreeDink_V1.09.6_GNUAssets",
+      "ApplicationFileName": null,
+      "GameFileName": "freedink.exe",
+      "EditorFileName": "freedinkedit.exe",
+      "Category": "Freedink",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/gnu_freedink-109_6.zip",
+            "Name": "gnu_freedink-109_6.zip",
+            "Sha256": "9f42039929251027412dbb5247c299de7c74dff5854f0dd03abc3c10bc3293c2",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        },
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/freedink_data-1_08_20190120.zip",
+            "Name": "freedink_data-1_08_20190120.zip",
+            "Sha256": "7cb32cae1d88fd15d2c441d6cbfe11e418bab6d66d84e2abe8a1b0c46bbd527a",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "WinDinkEditPlusDrone V2.5.7.8",
+      "DestinationName": "WDED_V2.5.7.8",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkeditPlus2.exe",
+      "Category": "WinDinkEditDrone",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/windinkedit_plus_2_drone_edition-v2_5_7_8.zip",
+            "Name": "windinkedit_plus_2_drone_edition-v2_5_7_8.zip",
+            "Sha256": "3496150c568c3eaab3217fea5638976818d68b4fb71deeda337e97d39f63d5bb",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": "WDED_V2.5.7.8"
+        }
+      ]
+    },
+    {
+      "Name": "WinDinkEditPlus V2.5",
+      "DestinationName": "WinDinkEditPlus_V2.5",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkeditPlus2.exe",
+      "Category": "WinDinkEdit",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/windinkedit_plus_2-2_5.zip",
+            "Name": "windinkedit_plus_2-2_5.zip",
+            "Sha256": "629ee6d784514f2ea78c6ee68fde17ec4bc467a04868477b2c1389d07da67ae8",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "WinDinkEditPlus V2.3.2",
+      "DestinationName": "WinDinkEditPlus_V2.3.2",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkeditPlus2.exe",
+      "Category": "WinDinkEdit",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/windinkedit_plus_2-2_3_2.zip",
+            "Name": "windinkedit_plus_2-2_3_2.zip",
+            "Sha256": "5ce992febfdcf89fa3d8437c01bacc2ee0d87f43a3af13ac92f87a79da7c0815",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "WinDinkEditPlus V1.2",
+      "DestinationName": "WinDinkEditPlus_V1.2",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkeditPlus.exe",
+      "Category": "WinDinkEdit",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/windinkedit_plus-1_2.zip",
+            "Name": "windinkedit_plus-1_2",
+            "Sha256": "cba9d1336b2531585f78f653c1c4bc3f9d88044ae0ed66f45b39e3fe5cded183",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    },
+    {
+      "Name": "WinDinkEdit V1.4 Beta2",
+      "DestinationName": "WinDinkEdit_V1.4_Beta2",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkedit.exe",
+      "Category": "WinDinkEdit",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/develop/windinkedit10.zip",
+            "Name": "windinkedit10.zip",
+            "Sha256": "c03d4ea6b39860d92033da03f7b609ae1fa0bcef414e35d1b97025acbed615c6",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": ""
+        }
+      ]
+    }
+  ]
+}
