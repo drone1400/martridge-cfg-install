@@ -224,6 +224,50 @@
       ]
     },
     {
+      "Name": "WinDinkEditPlusDrone V2.5.10.0",
+      "DestinationName": "WDED_V2.5.10.0",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkeditPlus2.exe",
+      "Category": "WinDinkEditDrone",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/windinkedit_plus_2_drone_edition-v2_5_10_0.zip",
+            "Name": "windinkedit_plus_2_drone_edition-v2_5_10_0.zip",
+            "Sha256": "141e1946a4a661b4443ac1e7875b1053b0210387335d00d2d3048b9673364bbf",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": "WDED_V2.5.10.0"
+        }
+      ]
+    },
+    {
+      "Name": "WinDinkEditPlusDrone V2.5.9.0",
+      "DestinationName": "WDED_V2.5.9.0",
+      "ApplicationFileName": null,
+      "GameFileName": null,
+      "EditorFileName": "WinDinkeditPlus2.exe",
+      "Category": "WinDinkEditDrone",
+      "InstallerComponents": [
+        {
+          "WebResource": {
+            "Uri": "https://www.dinknetwork.com/download/windinkedit_plus_2_drone_edition-v2_5_9_0.zip",
+            "Name": "windinkedit_plus_2_drone_edition-v2_5_9_0.zip",
+            "Sha256": "6a493394c1bae7d81953e15b6299cae4d6d772edd14d3ca930e8cb3946f174fb",
+            "CheckSha256": true,
+            "ResourceArchiveFormat": "Zip"
+          },
+          "FileFilterList": [],
+          "FileFilterMode": 2,
+          "SourceSubFolder": "WDED_V2.5.9.0"
+        }
+      ]
+    },
+    {
       "Name": "WinDinkEditPlusDrone V2.5.8.0",
       "DestinationName": "WDED_V2.5.8.0",
       "ApplicationFileName": null,
